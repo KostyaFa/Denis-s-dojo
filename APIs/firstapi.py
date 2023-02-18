@@ -49,4 +49,4 @@ async def delete_all():
     if dict_id == {}:
         return 'Пользователей нет'
     dict_id.clear()
-    return 'Данные всех пользователях удалены'
+    return 'Данные всех пользователей удалены'
