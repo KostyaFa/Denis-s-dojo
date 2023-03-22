@@ -8,6 +8,7 @@ class User(BaseModel):
 
 dict_id = dict()
 
+
 @app.get('/user/{id}')
 async def read_item(item: User, id: int):
     if dict_id.get(id) == None:
