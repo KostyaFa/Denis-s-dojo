@@ -62,3 +62,6 @@ def test_del_all():
 
     responce = client.delete('/user')
     assert responce.json() == 'Данные всех пользователей удалены'
+
+    responce = client.get('/user')
+    assert responce.json() == 'Пользователей нет'
