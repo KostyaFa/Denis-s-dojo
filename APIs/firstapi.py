@@ -51,4 +51,3 @@ async def delete_all():
         dict_id.clear()
         return 'Данные всех пользователей удалены'
     return 'Пользователей нет'
-    
